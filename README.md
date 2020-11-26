@@ -56,7 +56,7 @@ Modifier keys change the behavior as described, and subtext will appear in Alfre
 
 ⇧ is used to toggle the nearby scope.
 
-|   Keyword    	|   Modifier  	|   Description                                             	|   <img src="./assets/icon-twitter-32.png" alt="Twitter Icon" width="32" height="32">  	|   <img src="./assets/icon-appstore-32.png" alt="App Store Icon" width="32" height="32">  	|   <img src="./assets/icon-tweetbot-32.png" alt="Tweetbot Icon" width="32" height="32">  	|
+|   Keyword    	|   Modifier  	|   Description                                             	|   <img src="./assets/icon-twitter-16.png" alt="Twitter Icon" width="16" height="16">  	|   <img src="./assets/icon-appstore-16.png" alt="App Store Icon" width="16" height="16">  	|   <img src="./assets/icon-tweetbot-16.png" alt="Tweetbot Icon" width="16" height="16">  	|
 |--------------	|:-----------:	|-----------------------------------------------------------	|:------:	|:------:	|:-----------:	|
 |  `!        `  	|             	|   View my Twitter Notifications                           	|    ☑️   	|    ☑️   	|       ☑️     	|
 |  `@        `  	|             	|   Go to Twitter user @{query}                             	|    ☑️   	|    ☑️   	|       ☑️     	|
