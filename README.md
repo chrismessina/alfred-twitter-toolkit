@@ -161,7 +161,7 @@ One of the most convenient features of this workflow is the ability to quickly s
 
 ## [v0.3.0] - 2020-09-04
 ### Added
-- Support for [Tweetbot URL Schemes](https://tapbots.net/tweetbot4/support/url-schemes/) by setting `tweetbot` as `platform` variable (thanks [@bemawr](https://www.alfredforum.com/profile/16163-bemawr/ )!) (Closes [#3](https://github.com/chrismessina/alfred-twitter-toolkit/issues/3))
+- Support for [Tweetbot URL Schemes](https://tapbots.net/tweetbot4/support/url-schemes/) by setting `tweetbot` as `platform` variable (thanks [@bemawr](https://www.alfredforum.com/profile/16163-bemawr/ )!) (Closes [#3](https://github.com/chrismessina/alfred-app/issues/3))
 - Support for `nearby` searches:
   - tweets
   - photos
@@ -172,11 +172,11 @@ One of the most convenient features of this workflow is the ability to quickly s
   - topics
   - Alternative keyword `!` for notifs
 - Descriptive notes in Workflow
-- OneUpdater (Closes [#6](https://github.com/chrismessina/alfred-twitter-toolkit/issues/6))
+- OneUpdater (Closes [#6](https://github.com/chrismessina/alfred-app/issues/6))
 
 ### Changed
 - Added `service` and `domain` variables to make it easier to develop other Toolkits
-- Drastically increased support for Twitter for Mac thanks to new routes included in 8.34 (thanks [@nolanobrien](https://twitter.com/@nolanobrien)!) (Closes [#4](https://github.com/chrismessina/alfred-twitter-toolkit/issues/4))
+- Drastically increased support for Twitter for Mac thanks to new routes included in 8.34 (thanks [@nolanobrien](https://twitter.com/@nolanobrien)!) (Closes [#4](https://github.com/chrismessina/alfred-app/issues/4))
 
 ### Removed
 - followees keyword
@@ -196,3 +196,5 @@ One of the most convenient features of this workflow is the ability to quickly s
 This workflow is unaffiliated with nor endorsed by Twitter.
 
 You can [file bugs](https://github.com/chrismessina/alfred-twitter-toolkit/issues/new) or [submit feature requests](https://github.com/chrismessina/alfred-twitter-toolkit/issues/new) on GitHub using the label `workflow:twitter-toolkit`.
+
+<a href="https://www.alfredforum.com/topic/15390-workflow-twitter-toolkit-for-alfred/">Alfred Forum link</a>.
