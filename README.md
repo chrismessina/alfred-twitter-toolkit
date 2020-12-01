@@ -123,7 +123,7 @@ Modifier keys change the behavior as described, and subtext will appear in Alfre
 |  `videos   `  	|       ⌘     	|   Search my Twitter videos for {query}                    	|    ☑️   	|    ☑️   	|             	|
 
 
-#Tips
+# Tips
 
 One of the most convenient features of this workflow is the ability to quickly search for your own tweets and tweeted media. By using the `my` keyword followed by search terms, you can quickly continue previous threads or link to things you said before.
 
