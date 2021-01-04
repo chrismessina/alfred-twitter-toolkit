@@ -137,7 +137,7 @@ One of the most convenient features of this workflow is the ability to quickly s
 
 # Changelog[¹](https://keepachangelog.com/)
 
-## [v0.3.5] -
+## [v0.3.5] - 2021-01-03
 ### Added
 - Added search for latest hashtagged tweets using `my` keyword
 - Added new searches:
