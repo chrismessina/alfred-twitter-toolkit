@@ -8,15 +8,15 @@ It makes it easy to quickly search and find your own content or the content of p
 
 <img src="./assets/preview.gif" alt="Preview of Twitter Toolkit">
 
-This extension doesn't support programmatic access to Twitter, like tweeting directly or sending DMs. For that kind of integration, try [AlfredTweet](http://dferg.us/alfredtweet-2/) by David Ferguson.
+This workflow doesn't support programmatic access to Twitter, like tweeting directly or sending DMs. For that kind of integration, try [AlfredTweet](http://dferg.us/alfredtweet-2/) by David Ferguson.
 
 
 # Installation
 
-<a href="https://github.com/chrismessina/alfred-twitter-toolkit/raw/main/twitter-toolkit.alfredworkflow"><img src="./assets/icon-workflow.png" alt="Workflow File Icon" width="128" height="128"></a>
+<a href="https://github.com/chrismessina/alfred-twitter-toolkit/releases/latest"><img src="./assets/icon-workflow.png" alt="Workflow File Icon" width="128" height="128"></a>
 
-1. Download [twitter-toolkit.alfredworkflow](https://github.com/chrismessina/alfred-twitter-toolkit/raw/main/twitter-toolkit.alfredworkflow).
-2. Double-click `twitter-toolkit.alfredworkflow` to install it.
+1. Download [latest release here](https://github.com/chrismessina/alfred-twitter-toolkit/releases/latest).
+2. Double-click the `.alfredworkflow` to install it.
 
 _You will need to be an [Alfred Powerpack](https://www.alfredapp.com/powerpack/) user to enable this workflow._
 
@@ -25,7 +25,7 @@ _You will need to be an [Alfred Powerpack](https://www.alfredapp.com/powerpack/)
 
 Once the workflow is installed, launch **Alfred Preferences**, choose **Workflows** and then select **Twitter Toolkit**.
 
-<span style="color:red;">➊</span> Access the **Workflow Environment Variables** in the top right of the window :
+<span style="color:red;">➊</span> Access the **Workflow Environment Variables** in the top right of the window:
 
 <img src="./assets/workflow-config.png" alt="How to access the Alfred Workflow Environment Variables">
 
@@ -34,7 +34,7 @@ Once the workflow is installed, launch **Alfred Preferences**, choose **Workflow
 
 This workflow makes it easy to search your own tweets or find content from the people you follow ("followees").
 
-<span style="color:red;">➋</span> To configure this feature, you must set the `account` variable in the configuration .
+<span style="color:red;">➋</span> To configure this feature, you must set the `account` variable in the configuration to *your own username*.
 
 
 ## Platform selection
@@ -50,11 +50,11 @@ The following keywords are used to interact with the Twitter Toolkit.
 
 Modifier keys change the behavior as described, and subtext will appear in Alfred to help guide your interaction.
 
-⌥ is typically used to scope content to your own content.
+`⌥` is typically used to scope content to your own content.
 
-⌘ is typically used to scope content from people you follow.
+`⌘` is typically used to scope content from people you follow.
 
-⇧ is used to toggle the nearby scope.
+`⇧` is used to toggle the nearby scope.
 
 |   Keyword    	|   Modifier  	|   Description                                             	|   <img src="./assets/icon-twitter-16.png" alt="Twitter Icon" width="16" height="16">  	|   <img src="./assets/icon-appstore-16.png" alt="App Store Icon" width="16" height="16">  	|   <img src="./assets/icon-tweetbot-16.png" alt="Tweetbot Icon" width="16" height="16">  	|
 |--------------	|:-----------:	|-----------------------------------------------------------	|:------:	|:------:	|:-----------:	|
@@ -64,6 +64,7 @@ Modifier keys change the behavior as described, and subtext will appear in Alfre
 |  `#        `  	|             	|   Search Twitter for #{query}                             	|    ☑️   	|    ☑️   	|             	|
 |  `#        `  	|             	|   Go to #{query}                                          	|    ☑️   	|        	|             	|
 |  `#        `  	|       ⌘     	|   Search my tweets for #{query}                           	|    ☑️   	|        	|             	|
+|  `$        `  	|             	|   Search Twitter for ${query}                             	|    ☑️   	|    ☑️   	|      ☑️      	|
 |  `analytics`  	|             	|   Go to Twitter Analytics                                 	|    ☑️   	|        	|             	|
 |  `bookmarks`  	|             	|   Go to Twitter Bookmarks                                 	|    ☑️   	|    ☑️   	|       ☑️     	|
 |  `dm       `  	|             	|   Compose a Twitter message                               	|    ☑️   	|    ☑️   	|             	|
@@ -104,10 +105,14 @@ Modifier keys change the behavior as described, and subtext will appear in Alfre
 |  `photos   `  	|       ⌘     	|   Search Twitter photos from people I follow for {query}  	|    ☑️   	|        	|             	|
 |  `photos   `  	|       ⇧     	|   Search nearby Twitter photos for {query}                	|    ☑️   	|        	|             	|
 |  `reply    `  	|             	|   Create a link in-reply-to a Tweet                        	|    ☑️   	|        	|             	|
-|  `top      `  	|             	|   Search top tweets for {query}                           	|    ☑️   	|        	|             	|
+|  `social   `  	|             	|   Search top tweets from my extended network for {query}    |    ☑️   	|       	|             	|
+|  `top      `  	|             	|   Search top tweets for {query}                           	|    ☑️   	|    ☑️  	|             	|
+|  `top      `  	|       ⌥     	|   Search top tweets from people I follow for {query}      	|    ☑️   	|    ☑️  	|             	|
+|  `top      `  	|             	|   Search top tweets from last week from people I follow for {query}      	|    ☑️   	|    ☑️  	|             	|
 |  `topics   `  	|             	|   View my Twitter Topics                                  	|    ☑️   	|    ☑️   	|             	|
 |  `trending `  	|             	|   See what’s happening                                    	|    ☑️   	|    ☑️   	|             	|
 |  `trending `  	|       ⌥     	|   See what’s happening for you                            	|    ☑️   	|        	|             	|
+|  `trusted  `  	|             	|   Search top tweets from my trusted network for {query}     |    ☑️   	|       	|             	|
 |  `tweet    `  	|             	|   Compose new Tweet                                       	|    ☑️   	|    ☑️   	|       ☑️     	|
 |  `tweets   `  	|             	|   Search Twitter for {query}                              	|    ☑️   	|    ☑️   	|       ☑️     	|
 |  `tweets   `  	|             	|   Search top tweets from people I follow for {query}      	|    ☑️   	|    ☑️   	|             	|
@@ -117,6 +122,7 @@ Modifier keys change the behavior as described, and subtext will appear in Alfre
 |  `users    `  	|             	|   Search Twitter users for {query}                        	|    ☑️   	|    ☑️   	|             	|
 |  `users    `  	|       ⌘     	|   Search Twitter users I follow for {query}               	|    ☑️   	|    ☑️   	|             	|
 |  `users    `  	|       ⇧     	|   Search nearby Twitter people for {query}                	|    ☑️   	|    ☑️   	|             	|
+|  `verified `  	|             	|   Search top tweets from verified users for {query}         |    ☑️   	|       	|             	|
 |  `videos   `  	|             	|   Search Twitter videos for {query}                       	|    ☑️   	|    ☑️   	|             	|
 |  `videos   `  	|             	|   Search Twitter videos from people I follow for {query}  	|    ☑️   	|    ☑️   	|             	|
 |  `videos   `  	|       ⇧     	|   Search nearby Twitter videos for {query}                	|    ☑️   	|    ☑️   	|             	|
@@ -130,6 +136,21 @@ One of the most convenient features of this workflow is the ability to quickly s
 <img src="./assets/twitter-toolkit-my.png" alt="Twitter Toolkit's support for searching for my tweets">
 
 # Changelog[¹](https://keepachangelog.com/)
+
+## [v0.3.5] -
+### Added
+- Added search for latest hashtagged tweets using `my` keyword
+- Added new searches:
+  - for top post from the last week from people you follow with keyword `top` ([h/t @wongmjane](https://twitter.com/wongmjane/status/1345886070794141696))
+  - for top post from my extended network with keyword `social` ([h/t @IgorBrigadir](https://twitter.com/IgorBrigadir/status/1345894508588900353))
+  - for top post from my trusted network with keyword `trusted`
+  - for top post from verified users with keyword `verified`
+- Added search for cashtags using `$` keyword
+
+### Changed
+- Added text for `my` search to include 'Top' label
+- Changed Worflow icon
+- Changed OneUpdater to look for recent GitHub releases
 
 ## [v0.3.4] - 2020-11-26
 ### Added
