@@ -30,12 +30,13 @@ Once the workflow is installed, launch **Alfred Preferences**, choose **Workflow
 <img src="./assets/workflow-config.png" alt="How to access the Alfred Workflow Environment Variables">
 
 
-## Set your username
+## Set your username and user ID
 
 This workflow makes it easy to search your own tweets or find content from the people you follow ("followees").
 
 <span style="color:red;">➋</span> To configure this feature, you must set the `account` variable in the configuration to *your own username*.
 
+<span style="color:red;">➍</span> Set the `userId` variable to your own user ID. You can find this number if you navigate to a Twitter.com message thread and look at the number after `messages/` and to the left of the hyphen in the URL.
 
 ## Platform selection
 
@@ -66,6 +67,7 @@ Modifier keys change the behavior as described, and subtext will appear in Alfre
 |  `#        `  	|       ⌘     	|   Search my tweets for #{query}                           	|    ☑️   	|        	|             	|
 |  `$        `  	|             	|   Search Twitter for ${query}                             	|    ☑️   	|    ☑️   	|      ☑️      	|
 |  `analytics`  	|             	|   Go to Twitter Analytics                                 	|    ☑️   	|        	|             	|
+|  `birdwatch`    |               |   Go to Birdwatch                                           |    ☑️   	|   |   |
 |  `bookmarks`  	|             	|   Go to Twitter Bookmarks                                 	|    ☑️   	|    ☑️   	|       ☑️     	|
 |  `dm       `  	|             	|   Compose a Twitter message                               	|    ☑️   	|    ☑️   	|             	|
 |  `dms      `  	|             	|   Go to Twitter messages                                  	|    ☑️   	|    ☑️   	|       ☑️     	|
