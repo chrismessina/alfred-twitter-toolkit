@@ -140,13 +140,17 @@ One of the most convenient features of this workflow is the ability to quickly s
 ## [v0.3.6] - 2021-05-04
 ### Added
 - Added keyword `@` view user's profile photo
+- Added `birdwatch` List Filter
+- Added `my` Birdwatch notes access
 - Added shift modifier to `@` keyword to view user's profile photo
 - Added verified icon
+- Added {var:actionPrefix}
 
 ### Changed
 - Edited `domain` variable to include trailing slash for consistency.
 - Added `{var:service}` to videos searches
 - Capitalized "Tweet" and other nouns
+- Set userId to not export
 
 ## [v0.3.5] - 2021-01-03
 ### Added
