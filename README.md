@@ -137,6 +137,17 @@ One of the most convenient features of this workflow is the ability to quickly s
 
 # Changelog[¹](https://keepachangelog.com/)
 
+## [v0.3.6] - 2021-05-04
+### Added
+- Added keyword `@` view user's profile photo
+- Added shift modifier to `@` keyword to view user's profile photo
+- Added verified icon
+
+### Changed
+- Edited `domain` variable to include trailing slash for consistency.
+- Added `{var:service}` to videos searches
+- Capitalized "Tweet" and other nouns
+
 ## [v0.3.5] - 2021-01-03
 ### Added
 - Added search for latest hashtagged tweets using `my` keyword
