@@ -71,8 +71,10 @@ Modifier keys change the behavior as described, and subtext will appear in Alfre
 |  `analytics`  	|             	|   Go to Twitter Analytics                                 	|    ☑️   	|        	|             	|
 |  `birdwatch`    |               |   Go to Birdwatch                                           |    ☑️   	|   |   |
 |  `bookmarks`  	|             	|   Go to Twitter Bookmarks                                 	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `data`         |               |   Download your Twitter data                                |    ☑️   	|       	|             	|
 |  `dm       `  	|             	|   Compose a Twitter message                               	|    ☑️   	|    ☑️   	|             	|
 |  `dms      `  	|             	|   Go to Twitter messages                                  	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `download`     |               |   Download your Twitter data                                |    ☑️   	|       	|             	|
 |  `embed    `  	|             	|   Embed tweet                                             	|    ☑️   	|        	|             	|
 |  `explore  `  	|             	|   See what’s happening                                    	|    ☑️   	|    ☑️   	|             	|
 |  `follow   `  	|             	|   Follow @{query} on Twitter                              	|    ☑️   	|        	|       ☑️     	|
@@ -152,6 +154,8 @@ One of the most convenient features of this workflow is the ability to quickly s
 - Added several keywords for accessing Settings on the web:
   - `access`
   - `account`
+  - `data`
+  - `download`
   - `notifs`
   - `privacy`
   - `resources`
