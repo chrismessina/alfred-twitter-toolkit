@@ -66,6 +66,8 @@ Modifier keys change the behavior as described, and subtext will appear in Alfre
 |  `#        `  	|             	|   Go to #{query}                                          	|    ☑️   	|        	|             	|
 |  `#        `  	|       ⌘     	|   Search my tweets for #{query}                           	|    ☑️   	|        	|             	|
 |  `$        `  	|             	|   Search Twitter for ${query}                             	|    ☑️   	|    ☑️   	|      ☑️      	|
+|  `access`       |               |   Access accessibility, display and language settings       |    ☑️   	|       	|             	|
+|  `account`      |               |   Access your Twitter account settings                      |    ☑️   	|       	|             	|
 |  `analytics`  	|             	|   Go to Twitter Analytics                                 	|    ☑️   	|        	|             	|
 |  `birdwatch`    |               |   Go to Birdwatch                                           |    ☑️   	|   |   |
 |  `bookmarks`  	|             	|   Go to Twitter Bookmarks                                 	|    ☑️   	|    ☑️   	|       ☑️     	|
@@ -103,11 +105,16 @@ Modifier keys change the behavior as described, and subtext will appear in Alfre
 |  `nearby   `  	|             	|   Search nearby Twitter people for {query}                	|    ☑️   	|    ☑️   	|             	|
 |  `new      `  	|             	|   New Tweet with text {query}                               |    ☑️   	|    ☑️   	|       ☑️     	|
 |  `notifs   `  	|             	|   View my Twitter Notifications                           	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `notifs`       |               |   Access your Twitter notification settings                 |    ☑️   	|       	|             	|
 |  `photos   `  	|             	|   Search Twitter photos for {query}                       	|    ☑️   	|        	|             	|
 |  `photos   `  	|       ⌘     	|   Search Twitter photos from people I follow for {query}  	|    ☑️   	|        	|             	|
 |  `photos   `  	|       ⇧     	|   Search nearby Twitter photos for {query}                	|    ☑️   	|        	|             	|
+|  `privacy`      |               |   Access your Twitter privacy settings                      |    ☑️   	|       	|             	|
 |  `reply    `  	|             	|   Create a link in-reply-to a Tweet                        	|    ☑️   	|        	|             	|
+|  `resources`    |               |   Access additional Twitter resources                       |    ☑️   	|       	|             	|
+|  `security`     |               |   Access your Twitter security settings                     |    ☑️   	|       	|             	|
 |  `social   `  	|             	|   Search top tweets from my extended network for {query}    |    ☑️   	|       	|             	|
+|  `settings`     |               |   Access Twitter settings                                   |    ☑️   	|       	|             	|
 |  `top      `  	|             	|   Search top tweets for {query}                           	|    ☑️   	|    ☑️  	|             	|
 |  `top      `  	|       ⌥     	|   Search top tweets from people I follow for {query}      	|    ☑️   	|    ☑️  	|             	|
 |  `top      `  	|             	|   Search top tweets from last week from people I follow for {query}      	|    ☑️   	|    ☑️  	|             	|
@@ -138,6 +145,21 @@ One of the most convenient features of this workflow is the ability to quickly s
 <img src="./assets/twitter-toolkit-my.png" alt="Twitter Toolkit's support for searching for my tweets">
 
 # Changelog[¹](https://keepachangelog.com/)
+
+## [v0.3.7] - 2021-06-19
+### Added
+- Added `validator` keyword to access [Twitter's Card validator](https://cards-dev.twitter.com/validator).
+- Added several keywords for accessing Settings on the web:
+  - `access`
+  - `account`
+  - `notifs`
+  - `privacy`
+  - `resources`
+  - `security`
+  - `settings`
+
+### Changed
+- Trimmed whitespace for `@` keyword.
 
 ## [v0.3.6] - 2021-05-04
 ### Added
