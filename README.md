@@ -4,7 +4,7 @@
 
 The Twitter Toolkit for Alfred lets you quickly interact with Twitter through its website, [Mac app](https://apps.apple.com/us/app/twitter/id1482454543?mt=12&uo=4), and [Tweetbot](https://tapbots.com/tweetbot/mac/).
 
-It makes it easy to quickly search and find your own content or the content of people you follow (shown using the <a href="../../themes/hey">Hey Theme</a>):
+It makes it easy to quickly search and find your own content or the content of people you follow (shown using my <a href="https://github.com/chrismessina/alfred-theme-chirp">Chirp Theme</a>):
 
 <img src="./assets/preview.gif" alt="Preview of Twitter Toolkit">
 
@@ -71,6 +71,7 @@ Modifier keys change the behavior as described, and subtext will appear in Alfre
 |  `analytics`  	|             	|   Go to Twitter Analytics                                 	|    ☑️   	|        	|             	|
 |  `birdwatch`    |               |   Go to Birdwatch                                           |    ☑️   	|   |   |
 |  `bookmarks`  	|             	|   Go to Twitter Bookmarks                                 	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `connect`      |               |   See Who to Follow on Twitter                              |    ☑️   	|   |   |
 |  `data`         |               |   Download your Twitter data                                |    ☑️   	|       	|             	|
 |  `dm       `  	|             	|   Compose a Twitter message                               	|    ☑️   	|    ☑️   	|             	|
 |  `dms      `  	|             	|   Go to Twitter messages                                  	|    ☑️   	|    ☑️   	|       ☑️     	|
@@ -147,6 +148,11 @@ One of the most convenient features of this workflow is the ability to quickly s
 <img src="./assets/twitter-toolkit-my.png" alt="Twitter Toolkit's support for searching for my tweets">
 
 # Changelog[¹](https://keepachangelog.com/)
+
+## [v0.3.8] - 2021-08-26 
+### Added
+- Added `lists` keyword to "See which Lists I'm on" and to "View my Lists"
+- Added `connect` keyword to "See Who to Follow" (h/t []@nima_owji](https://twitter.com/nima_owji))
 
 ## [v0.3.7] - 2021-06-19
 ### Added
