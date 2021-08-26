@@ -153,6 +153,7 @@ One of the most convenient features of this workflow is the ability to quickly s
 ### Added
 - Added `lists` keyword to "See which Lists I'm on" and to "View my Lists"
 - Added `connect` keyword to "See Who to Follow" (h/t [@nima_owji](https://twitter.com/nima_owji))
+- Added `tweet` keyword (which takes a URL to a tweet) to create a beautiful image using [@rang_ali](https://twitter.com/rang_ali)'s [Poet.so](https://poet.so).
 
 ## [v0.3.7] - 2021-06-19
 ### Added
