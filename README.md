@@ -149,10 +149,10 @@ One of the most convenient features of this workflow is the ability to quickly s
 
 # Changelog[¹](https://keepachangelog.com/)
 
-## [v0.3.8] - 2021-08-26 
+## [v0.3.8] - 2021-08-26
 ### Added
 - Added `lists` keyword to "See which Lists I'm on" and to "View my Lists"
-- Added `connect` keyword to "See Who to Follow" (h/t []@nima_owji](https://twitter.com/nima_owji))
+- Added `connect` keyword to "See Who to Follow" (h/t [@nima_owji](https://twitter.com/nima_owji))
 
 ## [v0.3.7] - 2021-06-19
 ### Added
@@ -190,8 +190,8 @@ One of the most convenient features of this workflow is the ability to quickly s
 ### Added
 - Added search for latest hashtagged tweets using `my` keyword
 - Added new searches:
-  - for top post from the last week from people you follow with keyword `top` ([h/t @wongmjane](https://twitter.com/wongmjane/status/1345886070794141696))
-  - for top post from my extended network with keyword `social` ([h/t @IgorBrigadir](https://twitter.com/IgorBrigadir/status/1345894508588900353))
+  - for top post from the last week from people you follow with keyword `top` (h/t [@wongmjane](https://twitter.com/wongmjane/status/1345886070794141696))
+  - for top post from my extended network with keyword `social` (h/t [@IgorBrigadir](https://twitter.com/IgorBrigadir/status/1345894508588900353))
   - for top post from my trusted network with keyword `trusted`
   - for top post from verified users with keyword `verified`
 - Added search for cashtags using `$` keyword
