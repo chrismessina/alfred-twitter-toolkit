@@ -86,6 +86,7 @@ Modifier keys change the behavior as described, and subtext will appear in Alfre
 |  `images   `  	|       ⌘     	|   Search Twitter images from people I follow for {query}  	|    ☑️   	|    ☑️   	|             	|
 |  `inbox    `  	|             	|   Go to Twitter messages                                  	|    ☑️   	|    ☑️   	|       ☑️     	|
 |  `lists    `  	|             	|   View Suggested Twitter Lists                            	|    ☑️   	|    ☑️   	|             	|
+|  `likes    `  	|             	|   View my Twitter Likes                                   	|    ☑️   	|        	|       ☑️     	|
 |  `lists    `  	|       ⌥     	|   View my Twitter Lists                                   	|    ☑️   	|        	|       ☑️     	|
 |  `lists    `  	|       ⌘     	|   View Twitter Lists You’re On                            	|    ☑️   	|        	|             	|
 |  `me       `  	|             	|   View my profile on Twitter                              	|    ☑️   	|    ☑️   	|       ☑️     	|
@@ -122,6 +123,7 @@ Modifier keys change the behavior as described, and subtext will appear in Alfre
 |  `top      `  	|       ⌥     	|   Search top tweets from people I follow for {query}      	|    ☑️   	|    ☑️  	|             	|
 |  `top      `  	|             	|   Search top tweets from last week from people I follow for {query}      	|    ☑️   	|    ☑️  	|             	|
 |  `topics   `  	|             	|   View my Twitter Topics                                  	|    ☑️   	|    ☑️   	|             	|
+|  `topics   `  	|             	|   Go to Topic Picker                                  	|    ☑️   	|        	|             	|
 |  `trending `  	|             	|   See what’s happening                                    	|    ☑️   	|    ☑️   	|             	|
 |  `trending `  	|       ⌥     	|   See what’s happening for you                            	|    ☑️   	|        	|             	|
 |  `trusted  `  	|             	|   Search top tweets from my trusted network for {query}     |    ☑️   	|       	|             	|
@@ -148,6 +150,12 @@ One of the most convenient features of this workflow is the ability to quickly s
 <img src="./assets/twitter-toolkit-my.png" alt="Twitter Toolkit's support for searching for my tweets">
 
 # Changelog[¹](https://keepachangelog.com/)
+
+## [v0.3.9] - 2022-04-13
+### Added
+- Added `likes` keyword as synonym for `me` to "See my Twitter Likes"
+- Added `topic` keyword to "See Twitter Topic Picker" ([#9](https://github.com/chrismessina/alfred-twitter-toolkit/issues/9))
+
 
 ## [v0.3.8] - 2021-08-26
 ### Added
